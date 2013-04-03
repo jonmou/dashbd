@@ -7,7 +7,7 @@
 
 <struts-config>
     <form-beans>
-        <form-bean name="loginForm" type="com.dashbd.form.LoginForm"></form-bean>
+        <form-bean name="userForm" type="com.dashbd.form.UserForm"></form-bean>
     </form-beans>
     
     <global-exceptions>
@@ -21,7 +21,7 @@
     <action-mappings>
         <action path="/Welcome" forward="/welcomeStruts.jsp"/>
         
-        <action path="/login" name="loginForm" type="com.dashbd.action.LoginAction">
+        <action path="/login" name="userForm" type="com.dashbd.action.LoginAction">
             <forward name="success" path="/success.jsp"></forward>
             <forward name="error" path="/error.jsp"></forward>
         </action>
