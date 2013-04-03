@@ -9,14 +9,7 @@ package com.dashbd.form;
  * @author I301095
  */
 import org.apache.struts.action.ActionForm;
-
-/**
- * 实体类
- * 
- * @author 梦缘
- * 
- */
-public class LoginForm extends ActionForm {
+public class UserForm extends ActionForm {
 	private static final long serialVersionUID = 1L;
 	// 封装属性
 	private String username;

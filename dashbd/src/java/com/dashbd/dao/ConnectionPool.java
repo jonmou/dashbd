@@ -1,4 +1,4 @@
-package db;
+package com.dashbd.dao;
 
 
 import java.sql.*;
@@ -16,7 +16,7 @@ import java.util.Vector;
 public class ConnectionPool {
 
     private String jdbcDriver = "com.sap.db.jdbc.Driver"; // 数据库驱动
-    private String dbUrl = "jdbc:sap://slc-dashboard.pgdev.sap.corp:30015/DB_SYS?reconnect=true"; // 数据 URL
+    private String dbUrl = "jdbc:sap://slc-dashboard.pgdev.sap.corp:30015/DB_SYS"; // 数据 URL
     private String dbUsername = "SYSTEM"; // 数据库用户名
     private String dbPassword = "Initial1"; // 数据库用户密码
     private String testTable = ""; // 测试连接是否可用的测试表名，默认没有测试表

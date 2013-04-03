@@ -1,6 +1,4 @@
-package com.dashbd.sql;
-
-import db.ConnectionPool;
+package com.dashbd.dao;
 import java.sql.Connection;
 
 /*
